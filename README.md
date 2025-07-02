@@ -12,9 +12,13 @@ You’ll need two terminals
 command - go run main.go
 
 *Terminal 2 – For sending the curl request
+
 command-{
+
 curl -X POST http://localhost:3000/shorten\
+
   -H "Content-Type: application/json"\
+ 
   -d '{"url":"https://example.com"}' (You can put any link you want to shorten inside the url field)
 }
 
