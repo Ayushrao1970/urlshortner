@@ -7,6 +7,8 @@ A simple URL shortener built with Go. It takes long URLs and gives you a short o
 You’ll need two terminals
 
 *Terminal 1 -start the server
+
+
 command - go run main.go
 
 *Terminal 2 – For sending the curl request
